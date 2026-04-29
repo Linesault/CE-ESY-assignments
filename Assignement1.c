@@ -9,7 +9,7 @@ struct CircularBuffer
     unsigned int writeposition;
 };
 struct CircularBuffer circ_buff;
-void circ_buff_init(){.\Assignment1.exe
+void circ_buff_init(){
     circ_buff.readposition=0;
     circ_buff.writeposition=0;
 }
@@ -42,7 +42,7 @@ int main(void) {
     printf("Enter your name: ");
     fgets(name, sizeof(name), stdin);
     name[strcspn(name, "\n")] = '\0';
-    snprintf(full_name, sizeof(full_name), "%sCE-ESY", name);
+    snprintf(namewithsuffix, sizeof(namewithsuffix), "%sCE-ESY", name);
     printf("Full string to buffer: \"%s\"\n", namewithsuffix);
     printf("Buffer size (CB_SIZE): %d\n\n", CB_SIZE);
     for (i = 0; namewithsuffix[i] != '\0'; i++) {
