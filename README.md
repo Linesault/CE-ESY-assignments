@@ -1,4 +1,4 @@
-# CE-ESY-assignments
+
 عمل الطالب سامي هاني أدهم لمادة النظم المضمنة هندسة الحواسيب جامعة دمشق
 #include <stdio.h>
 #include <string.h>
